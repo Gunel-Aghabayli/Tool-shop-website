@@ -1,0 +1,37 @@
+.about {
+  background-image: url(https://assets-global.website-files.com/65b9cce908217ff5cd624b00/65c0c2fc748a66371466c1ec_hero-inner-image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  filter: brightness(60%);
+  margin-bottom: 100px;
+}
+.about h1 {
+  font-size: 60px;
+  text-align: center;
+  padding-top: 80px;
+  color: var(--color--white);
+}
+.photo img{
+    width: 650px;
+    height: 350px;
+}
+.photo p{
+    font-size: 30px;
+    position: relative;
+}
+.photos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+.photo button{
+    position: absolute;
+    padding: 10px 15px;
+    border: none;
+    color: black;
+    background-color: orange;
+    font-size: 16px;
+}

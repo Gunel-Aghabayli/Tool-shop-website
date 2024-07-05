@@ -1,0 +1,34 @@
+.inputs{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    gap: 16px;
+}
+.contact{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.contact h1{
+    font-size: 90px;
+}
+.contact p{
+    width: 700px;
+    text-align: center;
+    color: rgb(119, 117, 117);
+}
+.inputs input{
+    padding: 20px;
+    padding-right: 50px;
+}
+.button{
+    width: 700px;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    margin-bottom: 50px;
+}
